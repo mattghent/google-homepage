@@ -1,12 +1,18 @@
+body {
+  font-size: 16px;
+}
+
 a {
   text-decoration: none;
   color: #333
 }
 
+/* Navbar */
+
 #top-navbar {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  margin: 20px 20px 0 20px;
 }
 
 .menu-left li,
@@ -22,9 +28,47 @@ a {
   border-radius: 50%
 }
 
-.fa-th {
-  
+/* Logo */
+
+#main-logo {
+  height: 233px;
+  margin-top: 89px;
+  text-align: center;
 }
+
+.logo {
+  padding-top: 109px;
+}
+
+/* Searchbar */
+
+#main-searchbar {
+max-width: 586px;
+margin: auto;
+text-align: center;
+}
+
+.searchbar-area {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 20px;
+}
+
+.searchbar {
+  border: none;
+  /* margin: 0 1rem; */
+  padding: 14px 1rem;
+  font-size: 16px;
+  width: 500px;
+}
+
+.searchbar-area .fas {
+  display: flex;
+  align-items: center;
+}
+
 
 
 

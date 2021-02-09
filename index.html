@@ -10,6 +10,7 @@
   <title>Google</title>
 </head>
 <body>
+  <!-- Navbar -->
   <nav id="top-navbar">
     <ul class="menu-left">
       <li><a href="#">About</a></li>
@@ -18,26 +19,34 @@
     <ul class="menu-right">
       <li><a href="#">Gmail</a></li>
       <li><a href="#">Images</a></li>
-      <li><a class="fas fa-th" href="#"></a></li>
-      <li><a class="fas fa-user" href="#"></a></li>
+      <li><a class="fas fa-th fa-lg" href="#"></a></li>
+      <li><a class="fas fa-user fa-lg" href="#"></a></li>
     </ul>
   </nav>
 
+<!-- Logo -->
   <main>
     <div id="main-logo">
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+      <div class="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+      </div>
     </div>
-    <div class="main-searchbar">
-      <i class="fas fa-search"></i>
-      <form action="">
-        <input class="searchbar" type="text">
-      </form>      
-      <i class="fas fa-microphone"></i>
+
+<!-- Searchbar -->
+    <div id="main-searchbar">
+      <div class="searchbar-area">
+        <i class="fas fa-search"></i>
+        <form action="">
+          <input class="searchbar" type="text">
+        </form>      
+        <i class="fas fa-microphone"></i>
+      </div>
       <div class="searchbar-btns">
         <input class="search-btns" type="submit" value="Google Search">
         <input class="search-btns" type="submit" value="I'm Feeling Lucky">
       </div>
     </div>
+
   </main>
 </body>
 </html>
