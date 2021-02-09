@@ -1,0 +1,30 @@
+a {
+  text-decoration: none;
+  color: #333
+}
+
+#top-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.menu-left li,
+.menu-right li {
+ display: inline-block;
+ padding-right: 10px;
+}
+
+.fa-user {
+  background: purple;
+  padding: 10px;
+  color: white;
+  border-radius: 50%
+}
+
+.fa-th {
+  
+}
+
+
+
