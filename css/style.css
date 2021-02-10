@@ -104,6 +104,30 @@ footer {
   color: rgba(0,0,0,.60);
 }
 
+.main-footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.footer-links {
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+}
+
+.footer-links a {
+  padding: 15px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.test {
+  flex-shrink: 0;
+}
+
 
 
 
